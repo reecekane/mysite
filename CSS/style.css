@@ -1,0 +1,162 @@
+body {
+  margin:0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*-----------------------------First Page----------------------------*/
+
+.top-container {
+  position: relative;
+  padding-bottom: 600px;
+  background-color: #ecfcff;
+
+}
+
+.cloud1 {
+position: absolute;
+right: 180px;
+top: 20px;
+width:180px;
+height:60px
+}
+
+.cloud2 {
+position: absolute;
+left: 260px;
+top:350px;
+
+}
+
+#imx {                                 /*------- header ------*/
+  font-size: 5rem;
+  font-family: 'Arvo', serif;
+  font-weight: normal;
+  display: inline-block;
+  margin: 100px auto 0 auto;
+  color: #66BFBF;
+  line-height: 2;
+}
+#awebx {                                /*------- paragraph ------*/
+    margin: 0;
+    position: relative;
+    top: 25px;
+    font-family: 'Arvo', serif;
+    font-size: 2rem;
+    color: #66BFBF;
+
+}
+
+.mtn {
+position: absolute;
+right: 275px;
+bottom: 0;
+height:600px;
+width: 700px;
+}
+ /*------------------------------- Second Page --------------------------*/
+
+ .middle-container {
+margin:0;
+margin-top: 75px;
+
+}
+.pc {                          /* -----circular images----*/
+  width: 200px;
+  height: 200px;
+  float: left;
+  padding-right: 30px;
+
+}
+.avatar{
+  border-radius: 100%;
+  background-color: white;
+
+}
+.contact {
+  width: 200px;
+  height: 200px;
+  margin-top: 40px;
+}
+.art {
+  width: 200px;
+  height: 200px;
+  float: right;
+  padding-left: 30px;
+}                                /* -----circular images----*/
+.hr {
+  width: 5%;
+  border: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  border-color: lightgrey;
+
+}
+
+.profile p {
+  display: inline-block;
+  line-height: 2;
+  word-spacing: 4px;
+}
+
+.profile h2 {
+  color:  #11999E
+}
+
+.profile {
+  width: 300px;
+  margin: 80px auto 120px auto;
+}
+
+.skills {
+margin-top: 110px;
+margin-bottom: 100px;
+}
+.skills h2, h3 {
+  margin-bottom: 20px;
+  color:  #11999E;
+}
+.skill-row {
+  width: 55%;
+  margin:35px auto;
+  text-align: left;
+  line-height: 2;
+  word-spacing: 4px;
+
+}
+.skill-row img {
+  width: 25%;
+  height: 25%;
+}
+.skill-row h3 {
+  padding-top: 15px;
+}
+
+/*-------------------------------- Third Page ----------------------------*/
+.messageme {
+    background: #45b29a;      /*---------- message me button---------*/
+    padding: .5em 1em .5em 1em;
+    color: white;
+    display: inline-block;
+    border-radius: 10%;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+.contact-me h2, h3, a {
+  color:  #11999E;
+  margin: 10px auto;
+}
+.contact-me {
+  margin: 60px auto 140px auto;
+  line-height: 2;
+}
+.bottom-container {
+  background-color: #e1faff;
+  padding: 50px;
+  padding-bottom: 5px;
+}
+.bottom-container p {
+  color: silver;
+}
