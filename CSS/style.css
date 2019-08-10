@@ -8,23 +8,23 @@ body {
 
 .top-container {
   position: relative;
-  padding-bottom: 600px;
+  padding-bottom: 37.5rem;
   background-color: #ecfcff;
 
 }
 
 .cloud1 {
 position: absolute;
-right: 180px;
-top: 20px;
-width:180px;
-height:60px
+right: 11.25rem;
+top: 1.25rem;
+width:11.25rem;
+height:3.75rem;
 }
 
 .cloud2 {
 position: absolute;
-left: 260px;
-top:350px;
+left: 16.25rem;
+top:21.875rem;
 
 }
 
@@ -33,14 +33,14 @@ top:350px;
   font-family: 'Arvo', serif;
   font-weight: normal;
   display: inline-block;
-  margin: 100px auto 0 auto;
+  margin: 6.25rem auto 0 auto;
   color: #66BFBF;
   line-height: 2;
 }
 #awebx {                                /*------- paragraph ------*/
     margin: 0;
     position: relative;
-    top: 25px;
+    top: 1.5625rem;
     font-family: 'Arvo', serif;
     font-size: 2rem;
     color: #66BFBF;
@@ -49,23 +49,23 @@ top:350px;
 
 .mtn {
 position: absolute;
-right: 275px;
+right: 17.1875rem;
 bottom: 0;
-height:600px;
-width: 700px;
+height:37.5rem;
+width: 43.75rem;
 }
  /*------------------------------- Second Page --------------------------*/
 
  .middle-container {
 margin:0;
-margin-top: 75px;
+margin-top: 4.6875rem;
 
 }
 .pc {                          /* -----circular images----*/
-  width: 200px;
-  height: 200px;
+  width: 12.5rem;
+  height:12.5rem;
   float: left;
-  padding-right: 30px;
+  padding-right: 1.875rem;
 
 }
 .avatar{
@@ -74,15 +74,15 @@ margin-top: 75px;
 
 }
 .contact {
-  width: 200px;
-  height: 200px;
-  margin-top: 40px;
+  width: 12.5rem;
+  height: 12.5rem;
+  margin-top: 2.5rem;
 }
 .art {
-  width: 200px;
-  height: 200px;
+  width: 12.5rem;
+  height: 12.5rem;
   float: right;
-  padding-left: 30px;
+  padding-left: 1.875rem;
 }                                /* -----circular images----*/
 .hr {
   width: 5%;
@@ -104,21 +104,21 @@ margin-top: 75px;
 }
 
 .profile {
-  width: 300px;
-  margin: 80px auto 120px auto;
+  width: 18.75rem;
+  margin: 5rem auto 7.5rem auto;
 }
 
 .skills {
-margin-top: 110px;
-margin-bottom: 100px;
+margin-top: 6.875rem;
+margin-bottom: 6.25rem;
 }
 .skills h2, h3 {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   color:  #11999E;
 }
 .skill-row {
   width: 55%;
-  margin:35px auto;
+  margin:2.1875rem auto;
   text-align: left;
   line-height: 2;
   word-spacing: 4px;
@@ -142,19 +142,22 @@ margin-bottom: 100px;
     text-transform: capitalize;
     letter-spacing: 2px;
     text-decoration: none;
-    margin-top: 30px;
+    margin-top: 1.875rem;
+}
+.messageme:hover {
+  background: #6ad2bb;
 }
 .contact-me h2, h3, a {
   color:  #11999E;
   margin: 10px auto;
 }
 .contact-me {
-  margin: 60px auto 140px auto;
+  margin: 3.75rem auto 8.75rem auto;
   line-height: 2;
 }
 .bottom-container {
   background-color: #e1faff;
-  padding: 50px;
+  padding: 3.125rem;
   padding-bottom: 5px;
 }
 .bottom-container p {
