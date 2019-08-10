@@ -1,0 +1,11 @@
+09/08/19 
+Change: First Upload of Website File Directory.
+Location: Github - https://reecekane.github.io/mysite
+-
+-
+10/08/19 
+Change: Updated (px) values to (rem), added :hover functionality to .messageme button in bottom-container.
+	Added Linkedin URL, removed website and twitter anchor links from footer.
+	Added :hover values for anchor links in bottom container and removed text decorations.
+	Added :visited value to anchor links in footer.
+Location: Github - https://reecekane.github.io/mysite

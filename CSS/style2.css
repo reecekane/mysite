@@ -1,6 +1,5 @@
 body {
   margin:0;
-  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   color: #40514E;
 }
@@ -26,128 +25,71 @@ body {
 
 .top-container {
   position: relative;
-  padding-bottom: 37.5rem;
+  padding-bottom: 30rem;
   background-color: #ecfcff;
-
 }
-
-.cloud1 {
-position: absolute;
-right: 11.25rem;
-top: 1.25rem;
-width:11.25rem;
-height:3.75rem;
-}
-
-.cloud2 {
-position: absolute;
-left: 16.25rem;
-top:21.875rem;
-
-}
-
-#imx {                                 /*------- header ------*/
-  font-size: 5rem;
+.header {
+  text-align: center;
+  font-size: 4rem;
   font-family: 'Arvo', serif;
   font-weight: normal;
-  display: inline-block;
-  margin: 6.25rem auto 0 auto;
+  margin:0;
+  position: relative;
+  top: 10rem;
   color: #66BFBF;
-  line-height: 2;
 }
-#awebx {                                /*------- paragraph ------*/
-    margin: 0;
-    position: relative;
-    top: 1.5625rem;
-    font-family: 'Arvo', serif;
-    font-size: 2rem;
-    color: #66BFBF;
+.pitch {
+  color: #40514E;
+  text-align: center;
+  word-spacing: 2px;
+  display: inline-block;
+  position: absolute;
+  line-height: 1.5;
+  top: 16rem;
+  left: 15rem;
+}
 
-}
-
-.mtn {
-position: absolute;
-right: 17.1875rem;
-bottom: 0;
-height:37.5rem;
-width: 43.75rem;
-}
  /*------------------------------- Second Page --------------------------*/
 
  .middle-container {
-margin:0;
-margin-top: 4.6875rem;
+margin:2rem;
+position: relative;
+left:5rem;
+padding-bottom: 25rem;
+}
 
-}
-.pc {                          /* -----circular images----*/
-  width: 12.5rem;
-  height:12.5rem;
-  float: left;
-  padding-right: 1.875rem;
-
-}
-.avatar{
-  border-radius: 100%;
-  background-color: white;
-
-}
-.contact {
-  width: 12.5rem;
-  height: 12.5rem;
-  margin-top: 2.5rem;
-}
-.art {
-  width: 12.5rem;
-  height: 12.5rem;
-  float: right;
-  padding-left: 1.875rem;
-}                                /* -----circular images----*/
 .hr {
   width: 5%;
   border: none;
   border-top-style: dotted;
   border-width: 10px;
   border-color: lightgrey;
+}
+.header2 {
+  color: #66BFBF;
+  position: absolute;
 
 }
-
-.profile p {
-  display: inline-block;
-  line-height: 2;
-  word-spacing: 4px;
+.para2 {
+width: 35rem;
+position: absolute;
+top: 3rem;
+}
+.languages li {
+padding: 5px;
+position: relative;
+top: 12rem;
 }
 
-.profile h2 {
-  color:  #11999E
+.css {
+  right: 25rem;
+  top:2rem;
+  position: absolute;
 }
-
-.profile {
-  width: 18.75rem;
-  margin: 5rem auto 7.5rem auto;
-}
-
-.skills {
-margin-top: 6.875rem;
-margin-bottom: 6.25rem;
-}
-.skills h2, h3 {
-  margin-bottom: 1.25rem;
-  color:  #11999E;
-}
-.skill-row {
-  width: 55%;
-  margin:2.1875rem auto;
-  text-align: left;
-  line-height: 2;
-  word-spacing: 4px;
-
-}
-.skill-row img {
-  width: 25%;
-  height: 25%;
-}
-.skill-row h3 {
-  padding-top: 15px;
+.html {
+  right: 15rem;
+  top:2rem;
+  position: absolute;
 }
 
 /*-------------------------------- Third Page ----------------------------*/
@@ -161,22 +103,28 @@ margin-bottom: 6.25rem;
     letter-spacing: 2px;
     text-decoration: none;
     margin-top: 1.875rem;
+      text-align: center;
 }
 .messageme:hover {
   background: #6ad2bb;
 }
+.contact {
+  margin: 4rem auto 2.5rem auto;
+}
 .contact-me h2, h3, a {
   color:  #11999E;
-  margin: 10px auto;
+  margin: 1rem auto;
 }
 .contact-me {
   margin: 3.75rem auto 8.75rem auto;
   line-height: 2;
+    text-align: center;
 }                               /*-------------Footer------------------ */
 .bottom-container {
   background-color: #e1faff;
   padding: 3.125rem;
   padding-bottom: 5px;
+  text-align: center;
 }
 .bottom-container p {
   color: silver;
@@ -200,4 +148,5 @@ margin-bottom: 6.25rem;
   position: fixed;
   bottom: 3rem;
   right: 3rem;
+  background-image: image(CSSimages2/up-arrow.png);
 }
